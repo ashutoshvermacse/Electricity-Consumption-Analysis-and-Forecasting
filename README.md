@@ -6,28 +6,28 @@ Dieses Projekt befasst sich mit der Analyse des Stromverbrauchs über einen Zeit
 **Durchgeführte Analysen:**
 
 1. **Visualisierung des täglichen Stromverbrauchs:**
-   -Grafische Darstellung der täglichen Verbrauchsmuster zur Identifizierung von Hoch- und Niedrigverbrauchsphasen.
+   - Grafische Darstellung der täglichen Verbrauchsmuster zur Identifizierung von Hoch- und Niedrigverbrauchsphasen.
 
 2. **Visualisierung des monatlichen Stromverbrauchs:**
-   -Visualisierung der monatlichen Verbrauchstrends zur Analyse langfristiger Entwicklungen.
+   - Visualisierung der monatlichen Verbrauchstrends zur Analyse langfristiger Entwicklungen.
 
 3. **Saisonalitätsprüfung mittels ACF-Plot:**
-   -Erstellung eines Autocorrelation Function (ACF) Plots des monatlichen Stromverbrauchs zur Untersuchung saisonaler Muster.
+   - Erstellung eines Autocorrelation Function (ACF) Plots des monatlichen Stromverbrauchs zur Untersuchung saisonaler Muster.
 
 4. **Vergleich monatlicher Verbrauchstrends:**
-   -Gegenüberstellung und Analyse der monatlichen Verbrauchstrends der Jahre 2005, 2010 und 2015.
+   - Gegenüberstellung und Analyse der monatlichen Verbrauchstrends der Jahre 2005, 2010 und 2015.
 
 5. **Zeitreihenzerlegung (Decomposition):**
-   -Aufschlüsselung der monatlichen Daten in Trend-, Saison- und Restkomponenten zur besseren Interpretation des Verbrauchsverhaltens.
+   - Aufschlüsselung der monatlichen Daten in Trend-, Saison- und Restkomponenten zur besseren Interpretation des Verbrauchsverhaltens.
 
 **Modellierung und Prognose:**
 
 Zur Vorhersage des Stromverbrauchs wurden vier verschiedene Modelle entwickelt:
 
-**ARIMA (AutoRegressive Integrated Moving Average)**
-**SARIMAX (Seasonal AutoRegressive Integrated Moving-Average with eXogenous factors)**
-**Exponential Smoothing**
-**RNN (Recurrent Neural Network)**
+- **ARIMA (AutoRegressive Integrated Moving Average)**
+- **SARIMAX (Seasonal AutoRegressive Integrated Moving-Average with eXogenous factors)**
+- **Exponential Smoothing**
+- **RNN (Recurrent Neural Network)**
 
 Unter diesen Modellen lieferte Exponential Smoothing die besten Ergebnisse. Darauf basierend wurde der Stromverbrauch für die nächsten 24 Monate mit hoher Genauigkeit prognostiziert.
 </details>
