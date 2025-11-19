@@ -31,6 +31,7 @@ Zur Vorhersage des Stromverbrauchs wurden vier verschiedene Modelle entwickelt:
 
 Unter diesen Modellen lieferte Exponential Smoothing die besten Ergebnisse. Darauf basierend wurde der Stromverbrauch für die nächsten 24 Monate mit hoher Genauigkeit prognostiziert.
 </details>
+
 ---
 
 <details>
